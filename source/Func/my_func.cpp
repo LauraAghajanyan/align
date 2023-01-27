@@ -27,7 +27,7 @@ bool isPrime(int n){
 }
 
 bool isPowerOf2(int n){
-    if(n % 2 == 1){
+    if(n % 2 == 1 && n != 1){
         return false;
     }
     int temp = 1;
