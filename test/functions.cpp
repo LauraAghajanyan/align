@@ -3,21 +3,21 @@
 #include <gtest/gtest.h>
 
 //tests for fibonacci 
-TEST(functions, TestIntegerOne)
+TEST(functions1, TestIntegerOne)
 {
     const auto expected = 0;
     const auto actual = fib(1);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerTen)
+TEST(functions2, TestIntegerTen)
 {
     const auto expected = 34;
     const auto actual = fib(10);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerSix)
+TEST(functions3, TestIntegerSix)
 {
     const auto expected = 5;
     const auto actual = fib(6);
@@ -25,21 +25,21 @@ TEST(functions, TestIntegerSix)
 }
 
 //tests for isPrime
-TEST(functions, TestIntegerOne)
+TEST(functions4, TestIntegerOne)
 {
     const auto expected = 0;
     const auto actual = isPrime(1);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerTen)
+TEST(functions5, TestIntegerTen)
 {
     const auto expected = 0;
     const auto actual = isPrime(10);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerFive)
+TEST(functions6, TestIntegerFive)
 {
     const auto expected = 1;
     const auto actual = isPrime(5);
@@ -48,21 +48,21 @@ TEST(functions, TestIntegerFive)
 
 //tests for isPowerOf2
 
-TEST(functions, TestIntegerOne)
+TEST(functions7, TestIntegerOne)
 {
     const auto expected = 1;
     const auto actual = isPowerOf2(1);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerTen)
+TEST(functions8, TestIntegerTen)
 {
     const auto expected = 0;
     const auto actual = isPowerOf2(10);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerEight)
+TEST(functions9, TestIntegerEight)
 {
     const auto expected = 1;
     const auto actual = isPowerOf2(8);
@@ -70,21 +70,21 @@ TEST(functions, TestIntegerEight)
 }
 
 //tests for hamming weight
-TEST(functions, TestIntegerOne)
+TEST(functions10, TestIntegerOne)
 {
     const auto expected = 1;
     const auto actual = HammingWeight(1);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerTen)
+TEST(functions11, TestIntegerTen)
 {
     const auto expected = 2;
     const auto actual = HammingWeight(10);
     ASSERT_EQ(expected, actual);
 }
 
-TEST(functions, TestIntegerSeven)
+TEST(functions12, TestIntegerSeven)
 {
     const auto expected = 3;
     const auto actual = HammingWeight(7);
